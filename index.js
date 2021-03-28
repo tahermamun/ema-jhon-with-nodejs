@@ -82,7 +82,7 @@ app.get('/', (req, res) => {
 console.log(process.env.DB_USER)
 
 
-app.listen(5000)
+app.listen(process.env.PORT || 5000)
 
 
 
